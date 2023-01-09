@@ -1,0 +1,31 @@
+// utils styles
+@import './utils/variables';
+@import './utils/reset';
+@import './utils/hidden';
+
+// components styles
+@import './components/base';
+@import './components/container';
+@import './components/buttons';
+
+
+// sections style
+
+@import './components/header';
+@import './components/hero';
+@import './components/feature';
+@import './components/section-img';
+@import './components/team';
+@import './components/socials';
+@import './components/clients';
+@import './components/footer';
+@import './components/join';
+@import './components/subscription';
+@import './components/navigation';
+@import './components/portfolio';
+@import './components/modal';
+
+
+// @import './components/nav';
+// @import './components/booking';
+// @import './components/contacts';

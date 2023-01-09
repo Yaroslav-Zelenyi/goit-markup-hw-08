@@ -1,0 +1,117 @@
+.button.primary {
+ color: var(--primary-big-color);
+ background-color: var(--accent-color);
+ cursor: pointer;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 1.9;
+ display: inline-block;
+ letter-spacing: 0.06em;
+ padding: 10px 32px; 
+ border-radius: 4px;
+ border: 1px solid transparent;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+ &:hover,
+ &:focus {
+ color: var(--primary-big-color);
+ background: #188CE8;
+}
+}
+   
+.subscription-btn {
+ background-color: var(--accent-color);
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+ border-radius: 4px;
+ width: 200px;
+ height: 50px;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 1,8;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+ letter-spacing: 0.06em;
+ border: 0;
+ cursor: pointer;
+ color: var(--primary-big-color);
+ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+ &:hover,
+ &:focus {
+ background-color: #188CE8;
+ }
+}
+   
+.modal-btn {
+ position: absolute;
+ top: 8px;
+ right: 8px;
+ width: 30px;
+ height: 30px; 
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ cursor: pointer;
+
+ background-color: var(--primary-big-color);
+
+ border-radius: 50%;
+ border: 1px solid rgba(0, 0, 0, 0.1);
+
+ &-icon {
+ fill: #000000;
+ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+ &:hover &-icon,
+ &:focus &-icon{
+ fill: var(--accent-color);
+ }
+}
+
+.modal-submit-btn {
+ background-color: var(--accent-color);
+ color: var(--primary-big-color);
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+ border-radius: 4px;
+ border: 0;
+ cursor: pointer;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 1.8;
+ letter-spacing: 0.06em;
+ padding: 10px 52px;
+ text-align: center;
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+ &:hover,
+ &:focus {
+ background-color: #188CE8;}
+}
+
+
+.close-modal-btn {
+ width: 30px;
+ height: 30px;
+ border-radius: 100%;
+ border: 1px solid rgba(0, 0, 0, 0.1);
+ background-color: var(--primary-big-color);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: auto;
+ cursor: pointer;
+ position: absolute;
+ top: 8px;
+ right: 8px;
+ padding: 0;
+
+ &:hover .close-icon {
+ fill: var(--accent-color);
+ }
+}
+   
