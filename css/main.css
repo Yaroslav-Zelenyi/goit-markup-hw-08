@@ -30,11 +30,21 @@
 }
 
 .container {
+  max-width: 480px;
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 738px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }
 
 .button.primary {
@@ -334,7 +344,6 @@
       flex-wrap: wrap;
   gap: 30px;
 }
-
 .feature__text {
   line-height: 1.7;
 }
@@ -349,24 +358,40 @@
 }
 
 .section-features {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .section-features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .feature__item {
-  width: 270px;
-  -ms-flex-preferred-size: calc((100% - 90px) / 4);
-      flex-basis: calc((100% - 90px) / 4);
+  width: 450px;
 }
-.feature__item::before {
-  content: "";
-  display: block;
-  margin-bottom: 30px;
-  height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #F5F4FA;
-  border-radius: 4px;
+@media screen and (min-width: 768px) {
+  .feature__item {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .feature__item {
+    width: 270px;
+    -ms-flex-preferred-size: calc((100% - 90px) / 4);
+        flex-basis: calc((100% - 90px) / 4);
+  }
+  .feature__item::before {
+    content: "";
+    display: block;
+    margin-bottom: 30px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+  }
 }
 .feature__item:nth-child(1)::before {
   background-image: url(../images/svg-feature/antenna\ 1.svg);
