@@ -1,5 +1,8 @@
 .subscription-block {
 margin-right: 0;
+@media screen and (min-width: 768px) {
+ margin-top: 20px;
+ }
 @media screen and (min-width: 1200px) {
  margin-right: auto;
  }
@@ -36,7 +39,7 @@ margin-right: 0;
  font-size: 16px;
  line-height: 1,25;
  padding: 16px;
-//  margin-bottom: 20px;
+ margin-bottom: 20px;
 
  @media screen and (min-width: 1200px) {
  margin-right: 12px;
