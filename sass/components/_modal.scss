@@ -22,7 +22,8 @@
  left: 50%;
  transform: translate(-50%,-50%);
 
- width: 528px;
+ max-width: 450px;
+ width: 100%;
  min-height: 581px;
  background-color: var(--primary-big-color);
 
@@ -39,11 +40,18 @@
  &__header {
  font-weight: 700;
  font-size: 20px;
- line-height: 1.15;
+ line-height: 1.5;
  text-align: center;
  letter-spacing: 0.03em;
  color: #212121;;
  margin-bottom: 12px;
+ }
+
+ @media screen and (min-width: 1200px){
+ max-width: 528px;
+ width: 100%;
+ font-size: 20px;
+ line-height: 1.15;
  }
 }
 
@@ -171,13 +179,19 @@
  align-items: center;
 }
 .agreement-text {
- line-height: 1.7;
+ font-size: 12px;
+ line-height: 1.16;
  letter-spacing: 0.03em;
  color: #757575;
  -webkit-user-select: none;
   -moz-user-select: none;
  -ms-user-select: none;
 user-select: none;
+
+@media screen and (min-width: 1200px){
+ font-size: 14px;
+ line-height: 1.7;    
+}
 }
 .agreement-text-link {
  color: var(--accent-color);
