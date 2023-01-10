@@ -27,7 +27,6 @@ padding-bottom: 60px;
  display: flex;
  gap: 60px;
  flex-direction: column;
- align-items: center;
 
  @media screen and (min-width: 768px) {
  flex-direction: row;
@@ -74,5 +73,6 @@ padding-bottom: 60px;
 
   @media screen and (min-width: 1200px) {
  text-align: start;
+ margin-right: 0;
  }
 }
