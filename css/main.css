@@ -824,6 +824,11 @@
 .footer__address-block {
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .footer__address-block {
+    margin-right: 165px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer__address-block {
     text-align: start;
@@ -895,6 +900,11 @@
 .subscription-block {
   margin-right: 0;
 }
+@media screen and (min-width: 768px) {
+  .subscription-block {
+    margin-top: 20px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .subscription-block {
     margin-right: auto;
@@ -947,6 +957,7 @@
   font-size: 16px;
   line-height: 1, 25;
   padding: 16px;
+  margin-bottom: 20px;
 }
 @media screen and (min-width: 1200px) {
   .subscription-input {
