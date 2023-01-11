@@ -1650,7 +1650,7 @@ img {
 }
 
 .mobile-contacts {
-  margin-bottom: 40px;
+  margin-bottom: 64px;
 }
 
 .mobile-contacts-tel {
@@ -1674,13 +1674,15 @@ img {
 }
 
 .mobile-contacts-item:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 .mobile-socials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
