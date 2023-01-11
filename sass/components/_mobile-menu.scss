@@ -101,7 +101,7 @@
 }
   
 .mobile-contacts {
- margin-bottom: 40px;
+ margin-bottom: 64px;
 }
 
 .mobile-contacts-tel {
@@ -126,14 +126,16 @@
   
 .mobile-contacts-item {
  &:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 32px;
     }
 }
   
 .mobile-socials {
  display: flex;
+ flex-wrap: wrap;
  align-items: center;
  gap: 10px;
+
 }
   
 .mobile-socials-item {
